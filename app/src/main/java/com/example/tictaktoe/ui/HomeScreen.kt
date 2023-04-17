@@ -69,5 +69,12 @@ fun HomeScreen(
                 navController = navController
             )
         }
+
+        composable("friendrequests") {
+            FriendRequests(
+                viewModel = viewModel,
+                navController = navController
+            )
+        }
     }
 }
